@@ -74,6 +74,11 @@ simple voltage divider<br>
 
 For ratio calculation see inline documentation via webinterface.
 
+# Display hardware
+Uncomment in "**display.cpp**" the line of the display you want to use<br>
+//#include <Adafruit_SSD1306.h>
+//#include  <Adafruit_SH110X.h>
+
 # web interface
 
 ## live view
